@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    
+    height: 400px;
+    width: 400px;
+    padding: 2px;
+    border: 50px solid red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 5px rgb(179, 182, 179);
+    
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    
+    height: 99%;
+    width: 99%;
+    
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 7px 5px rgb(149,151,149);
+}
+.stick{
+    height: 8px;
+    width: 8px;
+    
+}
+.first{
+    
+   
+   position: absolute;
+   margin: 0px;
+   background-color: black;
+   width: 180px;
+   height: 5px;
+   transform-origin: left;
+   
+   transform: rotate(90deg);
+   
+}
+.second{
+     
+    position: absolute;
+    margin: 0px;
+    background-color: black;
+    width: 180px;
+    height: 5px;
+    transform-origin: left;
+   
+    transform: rotate(45deg);
+    
+    
+}
+.third{
+    position: absolute;
+    margin: 0px;
+    background-color: black;
+    width: 180px;
+    height: 5px;
+    transform-origin: left;
+   
+    transform: rotate(135deg);
+    
+    
+    
+    
+
+}
+.first:hover{
+    transform-origin: left;
+   
+    transform: rotate(450deg);
+    transition: all 6s ease-in;
+}
+.second:hover{
+    transform-origin: left;
+   
+    transform: rotate(390deg);
+    transition: all 3s ease-in-out;
+}
+.third:hover{
+    transform-origin: left;
+   
+    transform: rotate(490deg);
+    transition: all 10s ease-in-out;
+}
+
+@media(max-width:800px)
+{
+    .main{
+        width: 200px;
+        height: 200px;
+    }
+    .first{
+        width: 88px;
+    } 
+    .second{
+        width: 90px;
+    } 
+    .third{
+        width: 87px;
+    } 
+    .inner{
+        margin: 1px;
+    }
+
+
+
+}
+@media(max-width:400px)
+{
+    .main{
+        width: 100px;
+        height: 100px;
+    }
+    .first{
+        width: 41px;
+    } 
+    .second{
+        width: 42px;
+    } 
+    .third{
+        width: 40px;
+    } 
+    .inner{
+        margin: 1px;
+    }
