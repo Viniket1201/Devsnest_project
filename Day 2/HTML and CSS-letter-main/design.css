@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    border: 2px solid black;
+    padding: 50px;
+}
+.main{
+    background-color: rgb(196, 233, 159);
+    padding: 20px;
+    /* height: 900px;
+    width: 900px;
+    border: 2px solid black;
+    padding: auto; */
+}
