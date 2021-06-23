@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    background-color: rgb(9, 18, 34);
+    color: white;
+}
+main{
+    display: grid;
+    width: 80%;
+    height: auto;
+    grid-template-columns: repeat(4,auto);
+    margin: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.sec{
+    height: 120px;
+    background-color: rgba(53, 83, 110, 0.815);
+    border-radius: 10px;
+    position: sticky;
+    transform: rotateY(180deg);
+    transition: transform 300ms ease-in-out 0ms,color 2ms ease-in-out 150ms;
+    text-align: center;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#top{
+    text-align: center;
+}
