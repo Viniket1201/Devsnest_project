@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+
+    <link rel="icon" href="/favicon.ico">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <title>Assignment Navigation</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23444444' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23666666' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23888888' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23cccccc' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    height: 60px;
+    width: 120px;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1), 5px 5px 10px rgba(255,255,255,0.1) inset;
+    margin: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: grey; 
+    cursor: pointer;
+}
+
+@media(max-width: 640px) {
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="content">
+        <div class="card">
+            <a href="./Day01/HTML-letter-main/html_letter.html">DAY 1</a>
+        </div>
+        <div class="card">
+            <a href="./Day02/HTML and CSS-letter-main/html_letter.html">DAY 2</a>
+        </div>
+        <div class="card">
+            <a href="./Day03/CV-main/index.html">DAY 3</a>
+        </div>
+        <div class="card">
+            <a href="./Day04/index.html">DAY 4</a>
+        </div>
+        <div class="card">
+            <a href="./Day05/index.html">DAY 5</a>
+        </div>
+        <div class="card">
+            <a href="./Day06/index.html">DAY 6</a>
+        </div>
+        <div class="card">
+            <a href="./Day07/solve.js">DAY 7</a>
+        </div>
+        <div class="card">
+            <a href="./Day08/index.html">DAY 8</a>
+        </div>
+        <div class="card">
+            <a href="./Day09/inadex.html">DAY 9</a>
+        </div>
+        <div class="card">
+            <a href="./Day10/game.html">DAY 10</a>
+        </div>
+        <div class="card">
+            <a href="./Day11/index.html">DAY 11</a>
+        </div>
+        <div class="card">
+            <a href="./Day12/index.html">DAY 12</a>
+        </div>
+        <div class="card">
+            <a href="./Day13/index.html">DAY 12</a>
+        </div>
+        <div class="card">
+            <a href="./Day14/index.html">DAY 12</a>
+        </div>
+        <div class="card">
+            <a href="./Day15/">DAY 12</a>
+        </div>
+    </section>
+
+    <!-- <script src="app.js" "></script> -->
+</body>
+</html>
