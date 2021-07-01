@@ -48,7 +48,7 @@ function addItem(e){
 
     todoList.appendChild(div);
 
-    document.getElementById("list").appendChild(li);
+    // document.getElementById("list").appendChild(li);
     task.value="";
     time.value="";
     
