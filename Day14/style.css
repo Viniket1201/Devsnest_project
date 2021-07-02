@@ -14,7 +14,7 @@ body{
 }
 .outer{
     height: 400px;
-    width: 400px;
+    width: 300px;
     background-color: red;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body{
 }
 .main{
     height: 300px;
-    width: 300px;
+    width: 200px;
     background-color: greenyellow;
     display: flex;
     justify-content: center;
@@ -32,10 +32,41 @@ body{
 }
 .inner{
     height: 200px;
-    width: 200px;
+    width: 100px;
     background-color: cyan;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.container {
+    height: 400px;
+    width: 402px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+}
+
+.container .box {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #eee;
+}
+
+.container .box .item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: #ccc;
+}
+.media {
+    height: 400px;
+    width: 400px;
+    position: relative;
 }

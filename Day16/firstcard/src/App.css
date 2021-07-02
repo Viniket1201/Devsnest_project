@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card{
+  
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  color: blue;
+  background-color: aqua;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.Card img{
+  height: 80%;
+  width: 100%;
+}
+.main{
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(32, 32, 32);
+  grid-template-columns: repeat(6,auto);
+  grid-template-rows: repeat(6,auto);
+}
+.firstrow{
+  display: flex;
+}
+.first{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
+.first:nth-child(odd){
+  background-color: black;
+  
+}
+.first:nth-child(Even){
+  background-color: white;
+  
+}
+.secondrow{
+  display: flex;
+}
+.second{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
+.second:nth-child(odd){
+  background-color: white;
+  
+}
+.second:nth-child(Even){
+  background-color: black;
+}
+.thirdrow{
+  display: flex;
+}
+.third{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
+.third:nth-child(odd){
+  background-color: black;
+}
+.third:nth-child(Even){
+  background-color: white;
+}
+.fourthrow{
+  display: flex;
+}
+.fourth{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
+.fourth:nth-child(odd){
+  background-color: white;
+}
+.fourth:nth-child(Even){
+  background-color: black;
+}
+.fifthrow{
+  display: flex;
+}
+.fifth{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
+.fifth:nth-child(odd){
+  background-color: black;
+}
+.fifth:nth-child(Even){
+  background-color: white;
+}
+.sixthrow{
+  display: flex;
+}
+.sixth{
+  margin: 0;
+  height: 30px;
+  width: 30px;
+}
+.sixth:nth-child(odd){
+  background-color: white;
+}
+.sixth:nth-child(Even){
+  background-color: black;
+}
