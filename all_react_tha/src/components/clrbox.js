@@ -1,5 +1,5 @@
 import React from 'react';
-import '.s/styles/clrbox';
+import '../styles/clrbox.css';
 import Calorie from "./list";
 
 var arr = [

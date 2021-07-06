@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles/list";
+import "../styles/list.css";
 
 
 function Calorie(props){
@@ -8,7 +8,7 @@ function Calorie(props){
         <>
             <div className="box">
                 <div id="food">{props.food}</div>
-                <div id="desc">You have consumed <strong>{props.calorie}</strong> calories today</div>
+                <div id="desc">You have consumed <strong>{props.calorie}</strong> calories today.</div>
             </div>
         </>
     )
