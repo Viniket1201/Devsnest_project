@@ -15,3 +15,22 @@
     font-size: 25px;
     font-weight: 600;
 }
+.editbox{
+    margin: 20px;
+    padding: 10px;
+    height: 80px;
+    width: 450px;
+    background-color: springgreen;
+    border-radius: 5px;
+    
+}
+.editfood{
+    /* height: 20px;
+    width: 300px; */
+    margin: 5px;
+    font-size: 15px;
+}
+.editcalorie{
+    margin: 5px;
+    font-size: 15px;
+}

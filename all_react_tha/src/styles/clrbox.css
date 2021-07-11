@@ -6,13 +6,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .mainbox{
     height: 400px;
     width: 450px;
-    background-color: rgb(250, 166, 11);
-    border-radius: 5px;
+    /* background-color: rgb(250, 166, 11);
+    border-radius: 5px; */
     overflow-y: scroll;
     overflow-x: hidden;
+}
+.fooditem{
+    margin: 5px;
+    font-size: 20px;
+}
+.calorie{
+    margin: 5px;
+    font-size: 20px;
 }
