@@ -1,5 +1,5 @@
 import React from 'react';
-import "../src/styles/list.css";
+import "../styles/list.css";
 
 
 function Calorie(props){
