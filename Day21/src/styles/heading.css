@@ -1,0 +1,14 @@
+.header{
+    height: 100px;
+    width: 80vw;
+    border-radius: 10px;
+    margin: 5px 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 15, 121);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 119, 238);
+}
