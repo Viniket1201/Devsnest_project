@@ -1,0 +1,30 @@
+  
+* {
+  margin: 0;
+  padding: 0;
+  
+  background: rgb(25, 108, 192);
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+section {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  border: none;
+  background: aliceblue;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 1px 2px;
+  width: 200px;
+}
+
